@@ -6,7 +6,6 @@ function trocarCor(){
     document.getElementsByTagName("body")[0].style.backgroundColor = cores[index++]
 
     if(index > cores.length - 1){
-        alert(cores.length)
         index = 0
     }
 }
